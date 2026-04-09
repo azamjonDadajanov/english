@@ -1,0 +1,21 @@
+# Django Framework
+django>=4.2,<5.0
+
+# Telegram Bot Library (aiogram 3.x)
+aiogram>=3.0
+
+# Google Gemini API
+google-generativeai
+
+# Asinxron HTTP so'rovlar (Bot va Gemini ulanishi uchun)
+aiohttp
+aiohttp-socks
+
+# Atrof-muhit o'zgaruvchilari (.env fayli bilan ishlash uchun)
+python-dotenv
+
+# Ma'lumotlar bazasi (PostgreSQL ishlatmoqchi bo'lsangiz)
+psycopg2-binary
+
+# Gunicorn (Serverda Django-ni yurgizish uchun kerak bo'ladi)
+gunicorn
